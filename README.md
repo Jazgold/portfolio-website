@@ -1,6 +1,6 @@
 # Colorlib.com 
 
-# jazmine
+# Jasmine
 - checkout to a new branch (name of choice)
 - pull from main
 - work on the portfolio section
