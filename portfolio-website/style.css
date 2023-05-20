@@ -1,0 +1,125 @@
+* {
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #222;
+}
+
+.top-pager {
+    /* background-color: #ccc; */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+}
+
+.top-pager:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.top-pager .container {
+    opacity: 1;
+    position: relative;
+ 
+}
+
+.top-pager nav ul {
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    list-style: none;
+}
+
+.top-pager nav ul li a{
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.top-pager .intro {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-pager p {
+    font-size: 40px;
+}
+.top-pager h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+.top-pager span {
+    text-transform: uppercase;
+    letter-spacing: .2rem
+}
+.portfolio{
+    text-align: center;
+    justify-content: space-between;
+    align-items:center;
+    margin:0;
+}
+.portfolio p{
+    color:#fff;
+    font-weight: 400px;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.portfolio span{
+   font-weight: bold;
+}
+.portfolio .container ul{
+    color: #fff;
+    font-weight: 200;
+    font-size: 18px;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 50%;
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.portfolio .container ul li{
+    text-decoration: none;
+}
+.portfolio .container ul li a{
+    color:#6c757d ;
+    text-decoration: none;
+    
+}
+.portfolio .container ul li a:hover{
+    color: #bac964
+}
+.portfolio .container span{
+    color: #bac964;
+    font-weight: 400;
+}
+ .port-img{
+     width: 45%;
+    padding-top: 40px
+}

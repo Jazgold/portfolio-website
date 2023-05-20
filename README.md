@@ -1,2 +1,0 @@
-# Colorlib.com 
-
