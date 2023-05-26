@@ -7,5 +7,6 @@
 - push to the newly created branch
 - create a PR pointing to main branch
 
+Link to (Template)[https://preview.colorlib.com/#rezume] 
 
 NOTE: you are not allowed to push to a the new branch
