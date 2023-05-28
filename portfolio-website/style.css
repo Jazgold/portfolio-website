@@ -135,3 +135,56 @@ body {
     padding: 0;
 }
 
+.my_resume{
+    text-align: center;
+
+
+}
+.my_resume p{
+    font-size: 30px;
+    padding: 30px;
+    color: whitesmoke
+}
+.my_resume p b{
+    font-weight: bold;
+}
+
+.resume-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 30px;
+    grid-gap: 40px;
+    
+}
+
+.resume-items .item2{
+   border: 1px solid #333;
+   border-radius: 10px;
+   background-color: #333;
+   text-align: left;
+   color: whitesmoke;
+
+}
+.resume-items .item2 b{
+    color: white;
+    font-size: 15px;
+    padding: 30px;
+}
+.resume-items .item2 h3{
+    color:#bac964;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+} 
+.resume-items .item2 p{
+    color: #6c757d;
+    font-size: 20px;
+}
+.resume-items .item2 h4{
+    color:#6c757d;
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
