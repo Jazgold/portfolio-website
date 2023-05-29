@@ -152,9 +152,9 @@ body {
 .resume-items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 30px;
+    padding-left: 80px;
     grid-gap: 40px;
-    
+    width: 90%;
 }
 
 .resume-items .item2{
@@ -163,7 +163,6 @@ body {
    background-color: #333;
    text-align: left;
    color: whitesmoke;
-
 }
 .resume-items .item2 b{
     color: white;
