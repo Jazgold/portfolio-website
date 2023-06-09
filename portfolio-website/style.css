@@ -187,3 +187,17 @@ body {
     font-size: 15px;
     font-weight: 400;
 }
+.body{
+    text-align: center;
+}
+
+.body img{
+    width: 30%;
+}
+.bdy{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 80px;
+    grid-gap: 40px;
+    width: 90%;
+}
